@@ -55,6 +55,9 @@ A list of all member of the guild with the following information:
 - GLs - Number of Galactic Legends this player owns. Combine it with AFG and you know how many GLs the opponents guild has
   available at maximum as those, who haven't been online for at least one day, did not sign up for TW and therefore you won't
   face their GLs (requires the script to run as close after matchmaking as possible).
+	
+Member-*
+--------
 
 TEAM-*
 ------
