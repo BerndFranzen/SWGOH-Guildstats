@@ -1,4 +1,5 @@
 								SWGOH Guild StaSIXtics
+								======================
 
 					Everything You Always Wanted to Know About Your Guild's Characters and Ships* 
 
