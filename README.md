@@ -76,6 +76,8 @@ What is the MMScore? the MMScore is intended to help you to learn from the best.
 
 This results in a total possible MMScore of 100. If the score is not reached, the recommended mod sets and primaries are listed, otherwise the assigned mods are listed with their speed, mod set and primary attribute.
 
+NOTE: Mods below 5* and Level 15 are filtered and regarded as not present.
+
 TEAM-*
 ------
 This is the analysis for the pre-defined (and/or customized) teams with the following information:
