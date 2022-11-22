@@ -84,7 +84,7 @@ KNOWN ISSUES
 CONTACT
 =======
 For bugs, feature requests, feedback and whtever, contacts us at swgoh-guildstats@outlook.com or join the project's 
-Discord server at https://discord.gg/2UVAU573wy for discussion and latest releases.
+GitHub page at https://github.com/BerndFranzen/SWGOH-Guildstats for discussion and latest releases.
 
 
 SUPPORT THE PROJECT
