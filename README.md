@@ -58,6 +58,21 @@ A list of all member of the guild with the following information:
 	
 Member-*
 --------
+A list of all characters in a the member's roster with level 50 or higher with the following information:
+- Name - Name of the character
+- Power - The character's Galactic Power
+- Gear - The character's gear level
+- Speed - The character's speed
+- MMScore - The calculated Mod Meta Score
+- Mod summary or recommendation
+	
+What is the MMScore? the MMScore is intended to help you to learn from the best. It pulls all data from https://swgoh.gg/stats/mod-meta-report/guilds_100_gp/ and compares the character's mods against this meta list and calculates the score as follows:
+- Matching mod set 20 points for 4-mod sets (e.g. Speed) and 10 points for 2-mod sets (e.g. Health) (max. 30)
+- Matching primary attribute 5 points per mod (max. 30)
+- Speed on primary or secondary attribute 5 points per mod (max. 30)
+- All mod sets and primaries matching and speed on all mods 10 points
+
+This results in a total possible MMScore of 100. If the score is not reached, the recommended mod sets and primaries are listed, otherwise the assigned mods are listed with their speed, mod set and primary attribute.
 
 TEAM-*
 ------
