@@ -42,6 +42,7 @@ GUILD-<guild name>
 For each guild an individual subdirectory is created that contains the following set of files (see below for further descriptions).
 - GUILD-Member
 - TEAM-*
+- MEMBER-*
 - FLEET-*
 
 GUILD-Member
