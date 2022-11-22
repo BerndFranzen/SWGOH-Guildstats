@@ -24,9 +24,8 @@ To speed up multiple consecutive runs and save bandwidth, results received from 
 PREREQUISITES
 =============
 - Microsoft Powershell 6.0.0 or higher (Windows, Mac, Linux)
-- An account on https://api.swgoh.help
-- At least your own allycode
-- Your account info and allycode(s) updated in the CONFIG-Accounts.csv file
+- Your allycode registered and synched on swgoh.gg
+- Your allycode(s) updated in the CONFIG-Accounts.csv file
 
 
 OUTPUT
@@ -53,7 +52,6 @@ A list of all member of the guild with the following information:
 - gpChar - Player's character GP
 - gpShip - Player's ship GP
 - CRancor - Amount of player's Relic 5 (or higher) chars that can participate in Challenge Rancor raids
-- AFG - Away from Game, number of days the player hasn't been online. Useful for estamating opponents power in Territory Wars
 - GLs - Number of Galactic Legends this player owns. Combine it with AFG and you know how many GLs the opponents guild has
   available at maximum as those, who haven't been online for at least one day, did not sign up for TW and therefore you won't
   face their GLs (requires the script to run as close after matchmaking as possible).
@@ -66,6 +64,7 @@ This is the analysis for the pre-defined (and/or customized) teams with the foll
   lowest gear. This can be either. If the team has more than 5 members, the first character is regarded as lead-character,
   except if specified differently (see below) and the overall level will be the lower value if the lead's gear and the 4
   strongest other characters in the list.
+- T-GP - Overall Galactic Power of the team identified as for T-Lvl
 - T-Spd - The average speed of the team identified as for T-Lvl
 - Characters - The gear-level of each character, either "G"ear or "Relic". 
   If the character has all Zetas applied, this is shown by a prepending "z". For non-lead characters, lead-zetas are ignored. 
@@ -85,7 +84,7 @@ KNOWN ISSUES
 CONTACT
 =======
 For bugs, feature requests, feedback and whtever, contacts us at swgoh-guildstats@outlook.com or join the project's 
-Discord server at https://discord.gg/CbSmqUFE for discussion and latest releases.
+Discord server at https://discord.gg/2UVAU573wy for discussion and latest releases.
 
 
 SUPPORT THE PROJECT
@@ -95,6 +94,9 @@ You find this tool helpful and want support further development? You can donate 
 
 Q&A
 ===
+Q: Some players of my guild show with empty teams although they do have them. Why is this?
+A: The script pulls all data from api.swgoh.gg and this system only has the data of those players that have an account on swgoh.gg
+
 Q: How can I create custom teams?
 A: Just edit the CONIFG-Teams.csv file and add whatever you want to have an analysis for. You need to add the DefId as specified in 
    the game itself as well as the display name you want to see in the list.
@@ -118,13 +120,9 @@ A: Try a web search with "swgoh.gg" and the guild name in it, hopefully, they wi
    the member list and do a web search for each individual member name together with "swgoh.gg", hopefully at least one member has
    an swgoh.gg profile.
 
-Q: I want to work with fresh data but the tool will cleanup old cached data only after 24 hours, can I do a manual cleanup?
-A: Just delete the entire CACHE subdirectory and re-run the tool, it will then fetch fresh data from the server.
-
 
 PLANNED FEATURES
 ================
-- Mod-Score - Comparison of a character's mods against swgoh.gg Mod Meta reports
 - Ships - Define list of ships to analyze
 - TB Platoons - Analysis of all platoons that can be filled during TB
 - GL-Readiness - Analysis of character's relic levels compared to the requirements for each GL
