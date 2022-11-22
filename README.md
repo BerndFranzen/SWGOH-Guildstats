@@ -3,7 +3,7 @@
 
 					Everything You Always Wanted to Know About Your Guild's Characters and Ships* 
 
-	(*But Were Afraid to Ask any of Your Guild Members to dig through all that Data and Compile that Information for You)
+		(*But Were Afraid to Ask any of Your Guild Members to dig through all that Data and Compile that Information for You)
 
 
 PURPOSE
