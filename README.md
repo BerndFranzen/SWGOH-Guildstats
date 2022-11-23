@@ -123,11 +123,6 @@ Q: How can I create custom teams?
 A: Just edit the CONIFG-Teams.csv file and add whatever you want to have an analysis for. You need to add the DefId as specified in 
    the game itself as well as the display name you want to see in the list.
 
-Q: What das IgnoreLead mean in the CONFIG-Teams.csv?
-A: A weaker guild may not have that much Bossks available for a standard Bounty Hunter team but in DS-Hoth any Bounty counts,
-   so for this team the script will just pick the 5 strongest bounties overall and doesn't set a team level to 0 just because
-   the guild member doesn't have Bossk yet.
-
 Q: How do I know what is the DefId for a certain char?
 A: On each run, the script will create a file called GAME-NameMapping.htm that shows the display name and the corresponding
    DefId of each character and ship
@@ -141,6 +136,9 @@ A: Try a web search with "swgoh.gg" and the guild name in it, hopefully, they wi
    one member and grab the allycode. Otherwise you have to find the guild through the ingame guild search, open it up, browse through
    the member list and do a web search for each individual member name together with "swgoh.gg", hopefully at least one member has
    an swgoh.gg profile.
+	
+Q: Why does an MMScore of a character drop although I modded according to the recommendations?
+A: Because it's Meta and this is constantly changing so you may need to re-mod from time to time.
 
 
 PLANNED FEATURES
