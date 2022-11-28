@@ -1,4 +1,4 @@
-							SWGOH Guild StaSIXtics - 22-46
+							SWGOH Guild StaSIXtics - 22-48
 							==============================
 
 					Everything You Always Wanted to Know About Your Guild's Characters and Ships* 
@@ -29,6 +29,12 @@ PREREQUISITES
 - Your allycode registered and synched on swgoh.gg
 - Your allycode(s) updated in the CONFIG-Accounts.csv file
 
+CONFIG-Accounts.csv
+-------------------
+The file has 3 parameters per line:
+- Your (or someone else's allycode)
+- GuildMode (if set to true, the data for the entire guild is loaded, otherwise only the data for the allycode is loaded only, e.g. to view your popponent in GA)
+- ShowPartialGear (if set to true, gear levels are displayed with additional gear pieces, like G11+3, otherwise only the gear level is shown, like G11) 
 
 OUTPUT
 ======
@@ -112,7 +118,7 @@ GitHub page at https://github.com/BerndFranzen/SWGOH-Guildstats for discussion a
 
 SUPPORT THE PROJECT
 ===================
-You find this tool helpful and want support further development? You can donate through PayPal using the contact mail-address.
+You find this tool helpful and want support further development? You can donate through PayPal using the contact mail-address swgoh-guildstats@outlook.com.
 
 
 Q&A
