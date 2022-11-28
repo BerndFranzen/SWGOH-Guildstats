@@ -19,8 +19,6 @@ your guild mates and these files are also put into a ZIP file "GuildStat-<GuildN
 multiple guilds (like partner guilds who share one analyst or even Territory Wars once you found out an allycode of a member of the 
 opponent's guild (e.g. through swgoh.gg).
 
-To speed up multiple consecutive runs and save bandwidth, results received from the server are cached for 24 hours.
-
 
 PREREQUISITES
 =============
