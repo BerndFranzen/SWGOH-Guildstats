@@ -25,6 +25,7 @@ To speed up multiple consecutive runs and save bandwidth, results received from 
 PREREQUISITES
 =============
 - Microsoft Powershell 6.0.0 or higher (Windows, Mac, Linux)
+- PSParseHTML Powershell Module (by EvotecIT), installed automatically if not present 
 - Your allycode registered and synched on swgoh.gg
 - Your allycode(s) updated in the CONFIG-Accounts.csv file
 
