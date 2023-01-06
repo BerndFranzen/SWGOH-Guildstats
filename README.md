@@ -145,6 +145,13 @@ A: Try a web search with "swgoh.gg" and the guild name in it, hopefully, they wi
 Q: Why does an MMScore of a character drop although I modded according to the recommendations?
 A: Because it's Meta and this is constantly changing so you may need to re-mod from time to time.
 
+Q: When I try to run the script on Windows I get an error preventing the execution because it's not signed.
+A: You can exempt the script with the command Unblock File <script-name>.
+
+Q: I have upgrades my chars but why do the pages still show the old values?
+A: swgoh.gg only updates the stats every 24 hours. You can force a manual update once every 24 hours or become a "Patron" at swgoh.gg 
+   for a small fee, which reduces the automatic update intervall and grants you more manual refreshes.
+
 
 PLANNED FEATURES
 ================
