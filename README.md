@@ -150,7 +150,7 @@ A: You can exempt the script with the command Unblock File <script-name>.
 
 Q: I have upgrades my chars but why do the pages still show the old values?
 A: swgoh.gg only updates the stats every 24 hours. You can force a manual update once every 24 hours or become a "Patron" at swgoh.gg 
-   for a small fee, which reduces the automatic update intervall and grants you more manual refreshes.
+   for a small fee (€3.50/month), which reduces the automatic update intervall to 1 hour and grants you 5 manual refreshes per day.
 
 
 PLANNED FEATURES
