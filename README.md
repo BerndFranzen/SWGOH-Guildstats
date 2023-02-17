@@ -1,4 +1,4 @@
-							SWGOH Guild StaSIXtics - 22-48
+							SWGOH Guild StaSIXtics - 23-07
 							==============================
 
 					Everything You Always Wanted to Know About Your Guild's Characters and Ships* 
@@ -58,7 +58,6 @@ A list of all member of the guild with the following information:
 - GP - Player's overall Galactic Power (GP)
 - gpChar - Player's character GP
 - gpShip - Player's ship GP
-- CRancor - Amount of player's Relic 5 (or higher) chars that can participate in Challenge Rancor raids
 - GLs - Number of Galactic Legends this player owns. Combine it with AFG and you know how many GLs the opponents guild has
   available at maximum as those, who haven't been online for at least one day, did not sign up for TW and therefore you won't
   face their GLs (requires the script to run as close after matchmaking as possible).
