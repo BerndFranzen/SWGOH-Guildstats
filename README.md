@@ -1,4 +1,4 @@
-							SWGOH Guild StaSIXtics - 23-07
+							SWGOH Guild StaSIXtics - 23-15
 							==============================
 
 					Everything You Always Wanted to Know About Your Guild's Characters and Ships* 
@@ -79,6 +79,11 @@ What is the MMScore? the MMScore is intended to help you to learn from the best.
 - All mod sets and primaries matching and speed on all mods 10 points
 
 This results in a total possible MMScore of 100. If the score is not reached, the recommended mod sets and primaries are listed, otherwise the assigned mods are listed with their speed, mod set and primary attribute.
+
+If a char has reached an MMScore of 100, the rarity of each mod will be evaluated as well as when sclicing a mod from 5A to 6E, both, primary and all secondary get a status boost which increases the mod's value.
+- For each mod with a rarity of 6* extra 5 points are added (max. 30)
+
+This results in a total possible MMScore of 130. All 6* mods equipped are printed in BOLD to highlight them and show you were you still can improve.
 
 NOTE: Mods below 5* and Level 15 are filtered and regarded as not present.
 
