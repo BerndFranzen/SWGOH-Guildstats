@@ -118,11 +118,6 @@ For bugs, feature requests, feedback and whtever, contacts us at swgoh-guildstat
 GitHub page at https://github.com/BerndFranzen/SWGOH-Guildstats for discussion and latest releases.
 
 
-SUPPORT THE PROJECT
-===================
-You find this tool helpful and want support further development? You can donate through PayPal using the contact mail-address swgoh-guildstats@outlook.com.
-
-
 Q&A
 ===
 Q: Some players of my guild show with empty teams although they do have them. Why is this?
