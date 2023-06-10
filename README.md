@@ -115,7 +115,6 @@ So there are basically 3 levels to achieve:
 NOTE: Mods below 5* and Level 15 are filtered and regarded as not present.
 
 	
-	
 CONTACT
 =======
 For bugs, feature requests, feedback and whtever, contacts us at swgoh-guildstats@outlook.com or join the project's 
