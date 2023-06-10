@@ -1,4 +1,4 @@
-							SWGOH Guild StaSIXtics - 23-15
+							SWGOH Guild StaSIXtics - 23-23
 							==============================
 
 					Everything You Always Wanted to Know About Your Guild's Characters and Ships* 
@@ -22,17 +22,15 @@ opponent's guild (e.g. through swgoh.gg).
 
 PREREQUISITES
 =============
-- Microsoft Powershell 6.0.0 or higher (Windows, Mac, Linux)
+- Microsoft Powershell 6.2.0 or higher (Windows, Mac, Linux)
 - PSParseHTML Powershell Module (by EvotecIT), installed automatically if not present 
 - Your allycode registered and synched on swgoh.gg
 - Your allycode(s) updated in the CONFIG-Accounts.csv file
 
 CONFIG-Accounts.csv
 -------------------
-The file has 3 parameters per line:
+The file has 1 parameters per line:
 - Your (or someone else's allycode)
-- GuildMode (if set to true, the data for the entire guild is loaded, otherwise only the data for the allycode is loaded only, e.g. to view your popponent in GA)
-- ShowPartialGear (if set to true, gear levels are displayed with additional gear pieces, like G11+3, otherwise only the gear level is shown, like G11) 
 
 OUTPUT
 ======
@@ -49,18 +47,18 @@ For each guild an individual subdirectory is created that contains the following
 - GUILD-Member
 - TEAM-*
 - MEMBER-*
-- FLEET-*
 
 GUILD-Member
 ------------
 A list of all member of the guild with the following information:
-- Name - Name of the player
-- GP - Player's overall Galactic Power (GP)
-- gpChar - Player's character GP
-- gpShip - Player's ship GP
-- GLs - Number of Galactic Legends this player owns. Combine it with AFG and you know how many GLs the opponents guild has
+- Name		Name of the player
+- GP		Player's overall Galactic Power (GP)
+- gpChar	Player's character GP
+- gpShip	Player's ship GP
+- GLs	Number of Galactic Legends this player owns. Combine it with AFG and you know how many GLs the opponents guild has
   available at maximum as those, who haven't been online for at least one day, did not sign up for TW and therefore you won't
   face their GLs (requires the script to run as close after matchmaking as possible).
+- KL0 - KL6	Number of characters that a player has for the individual difficulty level on the Krayt Dragon Raid 
 	
 Member-*
 --------
@@ -69,23 +67,8 @@ A list of all characters in a the member's roster with level 50 or higher with t
 - Power - The character's Galactic Power
 - Gear - The character's gear level
 - Speed - The character's speed
-- MMScore - The calculated Mod Meta Score
+- MMScore - The calculated Mod Meta Score (see below for further explanation)
 - Mod summary or recommendation
-	
-What is the MMScore? the MMScore is intended to help you to learn from the best. It pulls all data from https://swgoh.gg/stats/mod-meta-report/guilds_100_gp/ and compares the character's mods against this meta list and calculates the score as follows:
-- Matching mod set 20 points for 4-mod sets (e.g. Speed) and 10 points for 2-mod sets (e.g. Health) (max. 30)
-- Matching primary attribute 5 points per mod (max. 30)
-- Speed on primary or secondary attribute 5 points per mod (max. 30)
-- All mod sets and primaries matching and speed on all mods 10 points
-
-This results in a total possible MMScore of 100. If the score is not reached, the recommended mod sets and primaries are listed, otherwise the assigned mods are listed with their speed, mod set and primary attribute.
-
-If a char has reached an MMScore of 100, the rarity of each mod will be evaluated as well as when sclicing a mod from 5A to 6E, both, primary and all secondary get a status boost which increases the mod's value.
-- For each mod with a rarity of 6* extra 5 points are added (max. 30)
-
-This results in a total possible MMScore of 130. All 6* mods equipped are printed in BOLD to highlight them and show you were you still can improve.
-
-NOTE: Mods below 5* and Level 15 are filtered and regarded as not present.
 
 TEAM-*
 ------
@@ -102,16 +85,37 @@ This is the analysis for the pre-defined (and/or customized) teams with the foll
   If the character has all Omicrons applied, this is shown by a prepending "o". 
   If the character is a GL and has his Ultimate applied, this is shown by a prepending "u".
 
-FLEET-*
--------
-Not yet implemented.
-
-
 KNOWN ISSUES
 ============
 - None
 
+MMScore
+=======
+NOTE: There is no absolute truth in modding, this tool just compares the mods to the current meta. You my find it usefull to mod a character differently for another game mode (JKL for example) or as it takes a different role in the squad that you play it in. This is only a SUGGESTION!
 
+What is the MMScore? the MMScore is intended to help you to learn from the best. It pulls all data from https://swgoh.gg/stats/mod-meta-report/guilds_100_gp/ and compares the character's mods against this meta list and calculates the score as follows:
+- Matching mod set 20 points for 4-mod sets (e.g. Speed) and 10 points for 2-mod sets (e.g. Health) (max. 30)
+- Matching primary attribute 5 points per mod (max. 30)
+- Speed on primary or secondary attribute 5 points per mod (max. 30)
+- All mod sets and primaries matching and speed on all mods 10 points
+
+This results in a total possible MMScore of 100. If the score is not reached, the recommended mod sets and primaries are listed, otherwise the assigned mods are listed with their speed, mod set and primary attribute.
+
+If a char has reached an MMScore of 100, the rarity of each mod will be evaluated as well as when sclicing a mod from 5A to 6E, both, primary and all secondary get a status boost which increases the mod's value.
+- For each mod with a rarity of 6* extra 5 points are added (max. 30)
+- If all mods have been sliced to 6A extra 20 points are added
+
+This results in a total possible MMScore of 150. All 6* mods equipped are printed in BOLD to highlight them and show you were you still can improve.
+
+So there are basically 3 levels to achieve:
+- 100 - all mods follow the current meta for this char and every mod has Speed on either primary or secondary attribute
+- 130 - all mods have additionally been sliced to 6*
+- 150 - all mods have additionally been sliced to 6A
+
+NOTE: Mods below 5* and Level 15 are filtered and regarded as not present.
+
+	
+	
 CONTACT
 =======
 For bugs, feature requests, feedback and whtever, contacts us at swgoh-guildstats@outlook.com or join the project's 
