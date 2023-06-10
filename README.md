@@ -19,6 +19,7 @@ your guild mates and these files are also put into a ZIP file "GuildStat-<GuildN
 multiple guilds (like partner guilds who share one analyst or even Territory Wars once you found out an allycode of a member of the 
 opponent's guild (e.g. through swgoh.gg).
 
+NOTE: SWGOH-Guildstats is not meant to be used for guild members anymore, if you want to get your personal stats, please use Mod-HAMMR (https://github.com/BerndFranzen/Mod-HAMMR) now.
 
 PREREQUISITES
 =============
