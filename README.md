@@ -1,4 +1,4 @@
-							SWGOH Guild StaSIXtics - 23-23
+							SWGOH Guild StaSIXtics - 23-31
 							==============================
 
 					Everything You Always Wanted to Know About Your Guild's Characters and Ships* 
@@ -30,8 +30,9 @@ PREREQUISITES
 
 CONFIG-Accounts.csv
 -------------------
-The file has 1 parameters per line:
+The file has 2 parameters per line:
 - Your (or someone else's allycode)
+- Meta Mode "Strict" or "Relaxed" (see below)
 
 OUTPUT
 ======
@@ -114,6 +115,13 @@ So there are basically 3 levels to achieve:
 - 150 - all mods have additionally been sliced to 6A
 
 NOTE: Mods below 5* and Level 15 are filtered and regarded as not present.
+
+What is the difference between Strict and Relaxed mode?
+- swgoh.gg provides 2 different lists of their Mod Meta Report, one using the Top 100 Guilds' mods and one from all players registerd.
+- In Strict mode, the tool only uses the Top 100's mods and gives you the corresponding score
+- In Relaxed mode, the score is calculated for both lists and the higher score is displayed.
+- If the score from All players is used, this is indicated by the MMScore beinfollowed by "(A)"
+- Relaxed mode has been added to handle the fact that meta sometime "flickers" and shows you a good score one day and a bad store every other day
 
 	
 CONTACT
