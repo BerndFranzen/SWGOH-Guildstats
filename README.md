@@ -1,4 +1,4 @@
-							SWGOH Guild StaSIXtics - 23-31
+							SWGOH Guild StaSIXtics - 23-34
 							==============================
 
 					Everything You Always Wanted to Know About Your Guild's Characters and Ships* 
